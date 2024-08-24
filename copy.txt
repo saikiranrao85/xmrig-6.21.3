@@ -1,0 +1,15 @@
+[Unit]
+Description=Run on startup
+
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+ExecStart=/home/kiran/xmrig-6.21.3/sh.sh
+
+[Install]
+WantedBy=multi-user.target
+
+
+
